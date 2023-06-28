@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .li {
+        @apply text-sm text-white hover:text-orange-300 hover:underline cursor-pointer;
+    }
+}
